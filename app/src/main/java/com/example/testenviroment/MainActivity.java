@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         Account objetoAccount = new Account();
         objetoAccount.depositCash(500);
         objetoAccount.withdrawCash(50);
-        System.out.println(objetoAccount.accountBalance);
+        System.out.println(objetoAccount.getBalance());
         
         /*
         Bird objBird = new Bird();
