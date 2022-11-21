@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.testenviroment.Class.Account;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -11,11 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
         Account objetoAccount = new Account();
         objetoAccount.depositCash(500);
         objetoAccount.withdrawCash(50);
         System.out.println(objetoAccount.getBalance());
-        
+        */
         /*
         Bird objBird = new Bird();
         Dog objDog = new Dog();
